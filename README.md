@@ -9,16 +9,16 @@ git clone <repo_url/repo.git>
 ```
 
 ## Part B: Syncing your fork
-Part effectively contains two sub-steps:
+This Part effectively contains two sub-steps:
 1. Syncing local repository
 2. Syncing fork or remote
 
-### 1. Syncing local repoitory
+### 1. Syncing local repository
 1. Add upstream(Original repository) as a remote repository. In terminal type
 ```
 git remote add upstream <original_repo/repo.git>
 ```
-2. Verify added remote repo using folloeing command. There should be atleast two remote repos.
+2. Verify added remote repo using following command. There should be atleast two remote repos.
 ```
 git remote -v
 ```
@@ -58,4 +58,4 @@ git commit -m "<Commit message>"
 ```
 git push origin master
 ```
-5. Goto Github repository. Goto compare changes. Initiate pull request.
+5. Goto Github repository. Go to compare changes. Initiate pull request.
